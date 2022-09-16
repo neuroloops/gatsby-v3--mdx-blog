@@ -1,0 +1,10 @@
+{
+  "configurations": [
+    {
+      "type": "msedge",
+      "name": "Launch Edge",
+      "request": "launch",
+      "url": "http://localhost:8000/",
+    },
+  ],
+}
