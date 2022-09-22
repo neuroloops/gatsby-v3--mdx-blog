@@ -6,7 +6,6 @@ import Links from '../constants/links'
 import SocialLinks from '../constants/socialLinks'
 
 const Navbar = ({ toggle }) => {
-  console.log(toggle)
   return (
     <nav className="navbar">
       <div className="nav-center">
