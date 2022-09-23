@@ -1,0 +1,25 @@
+{
+  "parserOptions": {
+    "sourceType": "module",
+    "ecmaFeatures": {
+      "jsx": true
+    }
+  },
+  "env": {
+    "es6": true
+  },
+  "rules": {
+    "no-unused-vars": "off",
+    "quote": 0,
+    "no-extra-semi": "error",
+    "allowTemplateLiterals": 0
+  },
+  "extends": [
+    "eslint:recommended",
+    "plugin:react/recommended"
+  ],
+  "ignorePatterns": [
+    "src/**/*.test.ts",
+    "node_modules/*"
+  ]
+}

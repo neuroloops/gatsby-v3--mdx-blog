@@ -73,11 +73,11 @@
 5. Add mdx file
 6. DOUBLE CHECK PATHS (../../ - gotcha)
 7. Run 'gatsby clean' - just to be on the safe side
-8. Seperate Images Folder
+8. Separate Images Folder
 9. FrontMatter (space gotcha - title: first post)
 10. Imports after FrontMatter
 
-## Create MDX/Post Pages Programatically
+## Create MDX/Post Pages Programmatically
 
 1. Setup Query with unique value (most likely slug)
 2. Setup Template
@@ -85,7 +85,7 @@
 4. Pass Variable (slug)
 5. Run Query in Template using variable (slug)
 
-## Create Categories Pages Programatically
+## Create Categories Pages Programmatically
 
 1. Repeat the same steps as posts just for categories.
 

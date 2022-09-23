@@ -1,5 +1,6 @@
 import { Link } from 'gatsby'
 import { FiInfo } from 'react-icons/fi'
+import { Counter, LikeButton } from '../components/Complete'
 
 <section className="mdx-page">
 
@@ -28,7 +29,34 @@ const lastname = 'smith'
   YOLO celiac flannel lumbersexual vegan activated charcoal williamsburg mukbang
   asymmetrical skateboard photo booth. Twee vinyl ramps aesthetic kale chips.
   Chia jean shorts hoodie, single-origin coffee kale chips biodiesel cloud bread
-  g
 </div>
 
+<h2> React component</h2>
+ <Counter />
 </section>
+
+```jsx
+import React from 'react'
+import styled from 'styled-components'
+import { AiOutlineLike } from 'react-icons/ai'
+const LikeButton = () => {
+  const [value, setValue] = React.useState(0)
+  return (
+    <Wrapper>
+      <div>
+        <button onClick={() => setValue(value + 1)}>
+          <AiOutlineLike />
+        </button>
+        <p>
+          Liked the post?
+          <br />
+          Click thumbs up few times
+        </p>
+      </div>
+      <span>+{value}</span>
+    </Wrapper>
+  )
+}
+```
+
+<LikeButton />

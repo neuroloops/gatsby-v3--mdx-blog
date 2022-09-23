@@ -1,6 +1,6 @@
-import React from 'react'
 import { Link } from 'gatsby'
 import Layout from '../components/Layout'
+import React from 'react'
 
 const NotFoundPage = () => (
   <Layout>
@@ -15,5 +15,4 @@ const NotFoundPage = () => (
     </section>
   </Layout>
 )
-
 export default NotFoundPage
